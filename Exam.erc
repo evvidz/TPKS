@@ -1,0 +1,198 @@
+P-CAD Electrical Rules Check Report
+
+======================================================================
+
+C:\Users\evvidz\Desktop\Exam.erc:
+
+ERC Report Options:
+-------------------
+
+Single Node Nets:   On
+No Node Nets:       On
+Electrical Rules:        On
+Unconnected Pins:        On
+Unconnected Wires:       On
+Bus/Net Rules:           On
+Component Rules:         On
+Net Connectivity Rules:  On
+Hierarchy Rules:         On
+
+ERC Errors:
+-----------
+
+
+SINGLE NODE NETS:
+
+Error 1 -- Net GND is a single node net
+Error 2 -- Net VCC is a single node net
+
+0 warning(s) detected.
+2 error(s) detected.
+
+NO NODE NETS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+ELECTRICAL RULES:
+
+Warning 1 -- Net GND has no input pins
+Warning 2 -- Net GND has no output pins
+Warning 3 -- Net VCC has no input pins
+Warning 4 -- Net VCC has no output pins
+Warning 5 -- Net 1 has no input pins
+Warning 6 -- Net 1 has no output pins
+Warning 7 -- Net NET00000 has no input pins
+Warning 8 -- Net NET00000 has no output pins
+Warning 9 -- Net NET00001 has no input pins
+Warning 10 -- Net NET00001 has no output pins
+Warning 11 -- Net NET00002 has no input pins
+Warning 12 -- Net NET00002 has no output pins
+Warning 13 -- Net NET00003 has no input pins
+Warning 14 -- Net NET00003 has no output pins
+Warning 15 -- Net NET00004 has no input pins
+Warning 16 -- Net NET00004 has no output pins
+Warning 17 -- Net  ŒÕ“¿ “2 has no input pins
+Warning 18 -- Net  ŒÕ“¿ “2 has no output pins
+Warning 19 -- Net NET00007 has no output pins
+Warning 20 -- Net NET00008 has no input pins
+Warning 21 -- Net NET00008 has no output pins
+Warning 22 -- Net NET00009 has no input pins
+Warning 23 -- Net NET00009 has no output pins
+
+----------------------------------------------------------------------
+
+16-Jun-20  12:53                                            Page    1
+
+P-CAD Electrical Rules Check Report
+
+======================================================================
+
+Warning 24 -- Net NET00005 has no output pins
+Warning 25 -- Net NET00010 has no input pins
+
+25 warning(s) detected.
+0 error(s) detected.
+
+UNCONNECTED PINS:
+
+Warning 26 -- Unconnected pin DA1-5 on sheet:Sheet1 at mm ( 87.000,203.760)
+Warning 27 -- Unconnected pin DA1-1 on sheet:Sheet1 at mm ( 87.000,198.680)
+
+2 warning(s) detected.
+0 error(s) detected.
+
+UNCONNECTED WIRES:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+BUS/NET RULES:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+COMPONENT RULES:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+NET CONNECTIVITY RULES:
+
+Warning 28 -- Power symbol  ŒÕ“¿ “2 is connected to net 1 at location 252.000mm
+, 242.000mm, on sheet 53331472.  The net name is ambiguous.
+
+1 warning(s) detected.
+0 error(s) detected.
+
+HIERARCHY RULES:
+
+
+Hierarchy is simple.
+Hierarchy is resolved.
+
+0 warning(s) detected.
+0 error(s) detected.
+
+ERC Summary:
+------------
+
+Single Node:
+	Errors:         2
+	Warnings:       0
+	Ignored Errors: 0
+No Node:
+
+----------------------------------------------------------------------
+
+16-Jun-20  12:53                                            Page    2
+
+P-CAD Electrical Rules Check Report
+
+======================================================================
+
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Electrical:
+	Errors:         0
+	Warnings:       25
+	Ignored Errors: 0
+Unconnected Pin:
+	Errors:         0
+	Warnings:       2
+	Ignored Errors: 0
+Unconnected Wire:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Bus/Net:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Component:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Net Connectivity:
+	Errors:         0
+	Warnings:       1
+	Ignored Errors: 0
+Hierarchy:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+16-Jun-20  12:53                                            Page    3
+
